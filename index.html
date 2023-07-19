@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:ital,wght@0,200;1,
+300&family=Roboto:ital,wght@0,500;1,
+300&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="final.css"/>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+     
+
+
+
+      <section id="home">
+        <div class="content">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Fahime Emamipoor, a web developer.</p>
+        <a href="#contact" class="btn">Get in touch</a>
+        </div>
+        <div class="background">
+        <img src="media/web-dev.png" alt="Web development image"/>
+        </div>
+        </section>
+        
+
+
+
+
+
+
+    
+      
+
+      <section id="about" class="container-girl-text">
+        <div class="content">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer with experience in HTML, CSS, and JavaScript.<br/> I love creating beautiful and functional websites.</p>
+        <button id="show-more" onclick="showMore()">Show more</button>
+        <div id="more-info" style="display: none;">
+        <p>Some of my projects include:</p>
+        <ul>
+        <li>A portfolio website with responsive design and animations.</li>
+        <li>A profile card.</li>
+        <li> calendar and category.</li>
+        </ul>
+        <p>You can check out my work on <a href="https://github.com/fahimee98" target="_blank">GitHub</a> .</p>
+        </div>
+        </div>
+        <div class="image.girl">
+        <img src="media/download.png" class="foto-of-girl"/>
+        </div>
+        </section>
+        
+
+
+
+
+
+
+     <section id="projects">
+      <div class="content">
+      <h2>My Projects</h2>
+      <div class="filter">
+      <button class="btn active" data-category="all">All</button>
+      <button class="btn" data-category="web">Web</button>
+      <button class="btn" data-category="mobile">Mobile</button>
+      <button class="btn" data-category="game">Game</button>
+      </div>
+      <div class="project" data-category="web">
+      <img src="media/project1.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="project" data-category="mobile">
+      <img src="media/project2.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="project" data-category="web">
+      <img src="media/project3.jpg" alt="Project 3">
+      <h3>Project 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="project" data-category="game">
+      <img src="media/project4.jpg" alt="Project 4">
+      <h3>Project 4</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      </div>
+      </section>
+      <section id="contact">
+        <div class="content">
+          <h2>Contact Me</h2>
+          <form class="form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message" class="texttarea"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    
+      <footer>
+        <p>&copy; 2023 Fahime Emamipoor. All rights reserved.</p>
+      </footer>
+    
+
+    <script src="final.js"></script>
+
+
+   
+</body>
+</html>
